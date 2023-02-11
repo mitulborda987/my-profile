@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,37 +10,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
     <style>
-        legend,summary{
+        legend,
+        summary {
             font-family: 'Anton', sans-serif;
         }
-        ul,li{
-            padding: 10px;
+        label{
+            border: 3px solid rgb(0, 0, 0);
+            border-radius: 5px;
+            padding: 2px 2px 2px 2px;
+            margin-left:25px;
+            font-weight: bolder;
+        }
+        ul,
+        li {
+            padding: 5px;
             color: chocolate;
+            padding-top: 10px;
+            margin-left: 20px;
+            
         }
     </style>
 </head>
+
 <body>
-    <fieldset>
+    <fieldset style="
+    padding-top: 30px;">
         <legend>
             <span><b>Hobbies</b></span>
         </legend>
-      
-            <summary><b>It Sector</b></summary>
-            <ul>
-                <li>Softwer devlopment</li>
-                <li>Web devlopment</li>
-                <li>Application devlopment</li>
-            </ul>
-
-            <summary><b>Sport Sector</b></summary>
-            <ul>
-                <li>Criket</li>
-                <li>Hockey</li>
-                <li>Football</li>
-            </ul>
-        
-        
+        <label>It Sector</label>
+        <ul>
+            <li>Softwer devlopment</li>
+            <li>Web devlopment</li>
+            <li>Application devlopment</li>
+        </ul>
+        <label>Sport Sector</label>
+        <ul>
+            <li>Criket</li>
+            <li>Hockey</li>
+            <li>Football</li>
+        </ul>
     </fieldset>
-        
-    </body>
+</body>
+
 </html>
